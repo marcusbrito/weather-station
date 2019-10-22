@@ -20,5 +20,5 @@ while True:
         print('Temperature: {}'.format(temperature))
         print('Humidity: {}\n'.format(humidity))
     else:
-        print('Reading error!')
+        print('Reading error')
     sleep(2)
