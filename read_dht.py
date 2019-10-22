@@ -21,4 +21,4 @@ while True:
         print('Humidity: {}\n'.format(humidity))
     else:
         print('Reading error!')
-    sleep(2)
+    sleep(5)
