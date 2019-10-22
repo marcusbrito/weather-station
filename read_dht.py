@@ -1,4 +1,4 @@
-import Rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import Adafruit_DHT
 from time import sleep
 import datetime
