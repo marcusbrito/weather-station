@@ -4,7 +4,7 @@ from time import sleep
 import datetime
 
 from firebase import firebase
-import urllib2, urllib, httplib
+import urllib, httplib
 import json
 import os
 
