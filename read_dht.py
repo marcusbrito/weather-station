@@ -16,9 +16,9 @@ pin = 17
 
 while True:
     humidity, temperature = Adafruit_DHT.read(sensor, pin)
-    if temperature != NULL and humidity != NULL:
+    if temperature != None and humidity != None:
         print('Temperature: {}'.format(temperature))
         print('Humidity: {}\n'.format(humidity))
     else:
-        print('Reading error')
+        print('Reading error!')
     sleep(2)
